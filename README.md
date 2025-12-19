@@ -28,8 +28,6 @@ The course will be divided into two halves. In the first half of the semester, w
 
 Most weeks, we will divide class time evenly between lectures and labs. Lectures will focus on a conceptual overview of the material, while labs will offer hands-on time to work on pairs or groups on assignments designed to build remote sensing skills applied to planning-specific use cases, including in-class exercises, homeworks, and the final project.
 
-We try to follow the best practices laid out in [_Teaching Tech Together_](https://teachtogether.tech/en/index.html), and we treat this class as a living document: we hope that it will evolve and improve over time and--in addition to explicitly seeking student feedback through surveys--we encourage students to submit suggestions for improvements to the class content as feature requests or pull requests on the GitHub repository. (On this note, we encourage you to check out [our roadmap](docs/ROADMAP.md) to see our plans to develop the course in the future).
-
 ## Tips for Success
 
 Based on our experiences teaching (and taking!) this class in previous years, here are a couple pieces of advice for how to approach the class:
@@ -90,23 +88,23 @@ This course relies on the use of Python and various related packages. All softwa
 
 MUSA 650 meets in person on Thursday from 8:30am-11:29am in Meyerson B13. In person participation is required. Online participation is an option only in case of a valid excuse with approval.
 
-| Week #       | Date | Topic                                                                                                                                     | Assignment                                                      |
-| ------------ | ---- | ----------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
-| 1            | 1/16 | Overview of remote sensing and satellite imagery appications                                                                              |                                                                 |
-| 2            | 1/23 | Fundamentals of machine learning from a remote sensing perspective                                                                        |                                                                 |
-| 3            | 1/30 | Data preparation: imaging feature extraction, visualization, normalization, data harmonization                                            | [HW1](assignments/HW1.md) Due                                   |
-| 4            | 2/6  | Dimensionality reduction and unsupervised learning                                                                                        |                                                                 |
-| 5            | 2/13 | Supervised learning for land cover classification, Part 1: training, cross-validation, method and model selection, parameter optimization | [HW2](assignments/HW2.md) Due                                   |
-| 6            | 2/20 | Supervised learning for land cover classification, Part 2: validation, evaluation, multi-class classification                             |                                                                 |
-| 7            | 2/27 | Ensemble methods in machine learning. Case studies: DSTL and EuroSat challenges                                                           | [HW3](assignments/HW3.md) Due                                   |
-| Spring Break |      |                                                                                                                                           |                                                                 |
-| 8            | 3/13 | Fundamentals of deep learning                                                                                                             |                                                                 |
-| 9            | 3/20 | Recent advances in deep learning: literature review and paper discussion                                                                  |                                                                 |
-| 10           | 3/27 | Convolutional neural networks for image classification; UNet architecture for semantic segmentation                                       | [Project Proposal](assignments/FINAL_PROJECT_PROPOSAL.md) Due   |
-| 11           | 4/3  | Case studies: DSTL and EuroSat challenges revisited                                                                                       |                                                                 |
-| 12           | 4/10 | Case study: predictive modeling using deep learning                                                                                       |                                                                 |
-| 13           | 4/17 | Big data and machine learning: techniques, tools, challenges, future directions                                                           |                                                                 |
-| 14           | 4/24 | Reviews                                                                                                                                   | [Final Project](assignments/FINAL_PROJECT.md) Presentations Due |
+| Week # | Date | Topic | Assignment | Lab |
+|--------|------|-------|------------|-------|
+| 1 | 1/15 | Course intro, overview of remote sensing and applications in city planning | |
+| 2 | 1/22 | Data sources and IO (Landsat, Sentinel, STAC API, `pystac-client`, etc.) | |
+| 3 | 1/29 | Non-ML approaches to remote sensing (indices, thresholds, change detection, time series) | |
+| 4 | 2/5 | Introduction to machine learning (unsupervised and supervised) | |
+| 5 | 2/12 | Supervised learning for land cover classification, Part 1: training data, cross-validation, method and model selection | |
+| 6 | 2/19 | Supervised learning for land cover classification, Part 2: validation, evaluation, multi-class classification, parameter optimization | |
+| 7 | 2/26 | | Midterm Exam | Google Earth Engine lab (LINK TO DO) |
+| Spring Break | | | |
+| 8 | 3/12 | Fundamentals of deep learning | |
+| 9 | 3/19 | Recent advances in deep learning: literature review and paper discussion | Final Project Proposal Due (LINK TO DO) |
+| 10 | 3/26 | Convolutional neural networks for image classification; UNet architecture for semantic segmentation | |
+| 11 | 4/2 | Case study: deep learning applications (Guest: Tristan) | EuroSat Assignment Due (LINK TO DO) |
+| 12 | 4/9 | Case study: predictive modeling using deep learning (Guest: TBD) | |
+| 13 | 4/16 | Big data and machine learning: techniques, tools, challenges, future directions | Final Exam (LINK TO DO) |
+| 14 | 4/23 | Final project presentations | Final Project Due (LINK TO DO) |
 
 ## Academic Integrity and AI Use
 
